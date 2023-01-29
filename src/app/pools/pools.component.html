@@ -1,0 +1,9 @@
+<section>
+    <div *ngFor="let pool of pools">
+        <h4>{{pool.name}}</h4>
+        <img src="{{pool.image}}" alt="{{pool.name}}" 
+        [ngStyle]="{width: mySize, height: mySize}"/>
+        <button *ngIf="mySize!='600px'" (click)="bigger('600px')">Ampliar</button>   
+        <p>{{pool.location}}</p>
+    </div>
+</section>

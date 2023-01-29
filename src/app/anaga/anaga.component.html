@@ -1,0 +1,9 @@
+<section>
+    <div *ngFor="let path of anaga">
+        <h4>{{path.name}}</h4>
+        <img src="{{path.image}}" alt="{{path.name}}"
+        [ngStyle]="{width: mySize, height: mySize}"/>
+        <button *ngIf="mySize!='600px'" (click)="bigger('600px')">Ampliar</button>   
+        <p>{{path.location}}</p>
+    </div>
+</section>

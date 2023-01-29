@@ -1,0 +1,42 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: whitesmoke;
+  border: 2px solid #000E8C;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h4 {
+  font-size: x-large;
+}
+
+img {
+  margin: 10px;
+  border: 3px solid white;
+}
+
+button {
+  background: #000E8C;
+  border: none;
+  color: white;
+  width: 80px;
+  padding: 5px;
+}/*# sourceMappingURL=pools.component.css.map */

@@ -1,0 +1,11 @@
+<!-- <h3 *ngIf="myDisplay!='flex'" (click)="show('flex')">PLAYAS</h3> -->
+<section>
+    <div *ngFor="let beach of beaches">
+        <h4>{{beach.name}}</h4>
+        <img src="{{beach.image}}" alt="{{beach.name}}"
+        [ngStyle]="{width: mySize, height: mySize}"/>
+        <button *ngIf="mySize!='600px'" (click)="bigger('600px')">Ampliar</button>
+        <p>{{beach.location}}</p>
+    </div>
+</section>
+

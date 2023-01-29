@@ -1,0 +1,13 @@
+section {
+  background-color: #000E8C;
+  width: 1300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  background: none;
+  border: 0;
+  color: white;
+  padding: 0 100px;
+}/*# sourceMappingURL=navbar.component.css.map */

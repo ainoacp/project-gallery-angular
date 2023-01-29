@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ainoa-170123-app-angular';
+  color: string = 'dark'
 }

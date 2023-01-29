@@ -1,0 +1,21 @@
+app-header{
+    &.clear{
+        background-color: whitesmoke;
+        color: black;
+    }
+    &.dark{
+        background-color: darkgray;
+        color: lightgray;
+    }
+}
+
+app-main{
+    &.clear{
+        background-color: whitesmoke;
+        color: black;
+    }
+    &.dark{
+        background-color: darkgray;
+        color: lightgray;
+    }
+}

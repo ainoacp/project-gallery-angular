@@ -1,0 +1,9 @@
+<section>
+    <div *ngFor="let todo of teide">
+        <h4>{{todo.name}}</h4>
+        <img src="{{todo.image}}" alt="{{todo.name}}"
+        [ngStyle]="{width: mySize, height: mySize}"/>
+        <button *ngIf="mySize!='600px'" (click)="bigger('600px')">Ampliar</button>   
+        <p>{{todo.location}}</p>
+    </div>
+</section>

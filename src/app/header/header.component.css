@@ -1,0 +1,14 @@
+section {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.light {
+  background-color: white;
+  color: black;
+}
+section.dark {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=header.component.css.map */
